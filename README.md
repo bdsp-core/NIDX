@@ -126,11 +126,5 @@ The code is structured in blocks that can be executed sequentially:
 - The model is an XGBoost classifier with feature selection performed using L1 regularization
 - Original data included 3,000 notes from MGB, with 16% (479 notes) labeled as NIDX by expert review
 - Bootstrap resampling with 1000 iterations is used to establish confidence intervals for performance metrics
-- Recent label corrections (dated June 6, 2024) have been applied to both datasets to improve accuracy
+- Recent label corrections (dated June 6, 2024) have been applied to both datasets to improve label accuracy
 - Model is part of a research effort described in "A Machine Learning Approach for Identifying People with Neuroinfectious Diseases in Electronic Health Records" by Singh, Sartipi, et al.
-
-## Future Work
-- Further external validation with diverse datasets from different geographical regions
-- Refinement to identify specific NIDX subtypes (e.g., bacterial vs. viral meningitis)
-- Integration of structured lab data to potentially improve performance
-- Exploration of large language models for handling more nuanced clinical contexts
